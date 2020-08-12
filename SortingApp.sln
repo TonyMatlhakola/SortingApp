@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingApp", "SortingApp\SortingApp.csproj", "{878DCB15-AB8E-4E41-A2C6-18E9EF2E2DD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingApp.Test", "SortingApp.Test\SortingApp.Test.csproj", "{73F8A0DD-D634-4607-8F72-6A1B55E60498}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SortingAppSrc", "SortingAppSrc", "{2252020F-CE44-496C-BF1B-F6BDF7FAED2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{878DCB15-AB8E-4E41-A2C6-18E9EF2E2DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878DCB15-AB8E-4E41-A2C6-18E9EF2E2DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878DCB15-AB8E-4E41-A2C6-18E9EF2E2DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878DCB15-AB8E-4E41-A2C6-18E9EF2E2DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F8A0DD-D634-4607-8F72-6A1B55E60498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F8A0DD-D634-4607-8F72-6A1B55E60498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F8A0DD-D634-4607-8F72-6A1B55E60498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F8A0DD-D634-4607-8F72-6A1B55E60498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{878DCB15-AB8E-4E41-A2C6-18E9EF2E2DD2} = {2252020F-CE44-496C-BF1B-F6BDF7FAED2E}
+		{73F8A0DD-D634-4607-8F72-6A1B55E60498} = {2252020F-CE44-496C-BF1B-F6BDF7FAED2E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2B9958C-CDB0-4972-AEF1-2922E19DA73A}
+	EndGlobalSection
+EndGlobal
