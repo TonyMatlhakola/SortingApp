@@ -16,14 +16,14 @@ namespace SortingApp.Test
 
             //act
             var analyzedText = stringAnalyser.DiscardPunctuation(textToAnalyze);
-           // textToAnalyze = Regex.Replace(textToAnalyze, @"[^A-Za-z]", string.Empty).ToLower();
+             textToAnalyze = Regex.Replace(textToAnalyze, @"[^A-Za-z]", string.Empty).ToLower();
 
             //assert            
             Assert.Equal(analyzedText, textToAnalyze);
 
         }
         [Fact]
-        public void SortTextTest()
+        public void QuickSortTextTest()
         {
             //arrange
             string textToAnalyze = "oihehfwrqsfasvasaadgsdggsdgsdsdgsdgs";
